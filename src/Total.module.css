@@ -1,0 +1,32 @@
+.container{
+    background: #fff;
+    padding: 10px;
+    text-align: center;
+    box-shadow: 0 0 10px 0 rgba(0,0,0,.5);
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    z-index: 99;
+    animation: mymove 0.5s ease-in-out 0s 1;
+}
+@keyframes mymove {
+    from {transform: translateY(100%);}
+    to {transform: translateY(0%);}
+}
+.paybtn{
+    background: #f84464;
+    color: #fff;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 49%;
+    height: 100%;
+    box-shadow: 0 1px 8px rgba(0,0,0,.16);
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    min-height: 40px;
+    max-width: 400px;
+    font-size: 18px;
+}

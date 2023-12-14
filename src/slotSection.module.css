@@ -1,0 +1,14 @@
+.slotSection{
+    background-color: #f7f5fb;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    padding: 0px 100px;
+    gap: 5px;
+}
+.scrnTs{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

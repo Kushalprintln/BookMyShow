@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 .slotSection{
     background-color: #f7f5fb;
     height: 50px;
@@ -11,4 +12,12 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+.multiseats,label{
+    font-size: 16px;
+    padding: 2px;
+    font-family: 'Roboto', sans-serif;
+}
+label{
+    margin-left: 20px;
 }

@@ -14,7 +14,7 @@ function UnbookedSeats(){
         obj.status = 'UnBooked';
         unbookedSeatsArray.push(obj);
     }
-    console.log(unbookedSeatsArray);
+    // console.log(unbookedSeatsArray);
     return unbookedSeatsArray;
 
 }
@@ -26,7 +26,7 @@ function CreatingRows(){
         obj[r] = UnbookedSeats();
         rowArray.push(obj);
     }
-    console.log(rowArray);
+    // console.log(rowArray);
     return rowArray;
 }
 const initialArray = CreatingRows();
